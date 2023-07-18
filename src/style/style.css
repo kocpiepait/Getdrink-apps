@@ -1,0 +1,132 @@
+@import 'drinklist.css';
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Pacifico&family=Poppins:ital,wght@0,200;1,600&family=Sigmar&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #191919;
+    width: 100%;
+}
+
+header{
+    font-family: 'Lilita One', cursive;
+    font-weight: 400;
+    padding: 15px 6%;
+    display: block;
+    align-items: center;
+    color: #fff;
+}
+
+jumbotron-hero{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(22, 37, 37);
+    background-image: url(/src/img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 280px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+main{
+    width: 100%;
+    justify-content: center;
+    display: block;
+    align-items: center;
+    align-content: center;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+
+.search-wrap{
+    background-color: #fff;
+    width: 50%;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.inpt{
+    padding: 16px;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px 20px 20px 15px;
+    width: 80%;
+    outline: none;
+}
+
+.btn{
+    background-color: #FF4301;
+    padding: 16px 35px;
+    border-radius:15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+   
+    header h1{
+        text-align: center;
+    }
+
+    .search-wrap{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .inpt{
+        width: 95%;
+        margin-bottom: 5px;
+    }
+
+    .btn{
+        width: 95%;
+        align-content: center;
+    }
+    
+    .story{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   
+    .search-wrap{
+        width: 60%;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .inpt{
+        width: 95%;
+        margin-bottom: 5px;
+    }
+
+    .story{
+        width: 90%;
+    }
+    
+}

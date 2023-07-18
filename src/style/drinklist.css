@@ -1,0 +1,48 @@
+#drink {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+    transition: 0.3s;
+  }
+  
+  #drink > .placeholder {
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.5);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .drink {
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    width: 200px;
+    transition: 3s;
+  }
+  
+  .drink .img-drink {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .drink-name {
+    padding: 24px;
+  }
+  
+  .drink-name > h5 {
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+  
